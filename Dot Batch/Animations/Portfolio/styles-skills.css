@@ -1,0 +1,36 @@
+.skills-container
+{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+
+}
+
+.skill-fade-text
+{
+    position: absolute;
+
+    font-size: 15rem;
+    font-style: bold;
+    color: rgb(231,231,231);
+    bottom: -34.5%;
+    right: -25%;
+    user-select: none;
+}
+
+.skill-container-left
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.skill-container-right
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap:2rem;
+}
